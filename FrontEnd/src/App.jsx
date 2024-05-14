@@ -10,7 +10,7 @@ import { useSelector } from "react-redux"
 
 
 function App() {
-  const basename = import.meta.env.MODE === "production" ? "/ArgentBank/" : "/";
+  const basename = import.meta.env.MODE === "production" ? "/OpenclassroomsProjectArgentBank/" : "/";
 
   const userProfil = useSelector(state =>state.login.userProfil)
   /* Fonction pour effectuer la redirection si l'utilisateur est déjà connecté */
